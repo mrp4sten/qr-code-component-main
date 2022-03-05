@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    /* Fonts */
+    --font: 'Outfit';
+}
+
+body {
+    background-color: var(--Light-gray);
+    font-family: 'Outfit';
+}
