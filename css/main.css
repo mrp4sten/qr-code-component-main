@@ -19,4 +19,34 @@
 body {
     background-color: var(--Light-gray);
     font-family: 'Outfit';
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card, .card_qr {
+    border-radius: 1rem;
+    width: 16rem;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card_title {
+    color: var(--Dark-blue);
+    font-weight: 600;
+}
+
+.card_description {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grayish-blue);
 }
